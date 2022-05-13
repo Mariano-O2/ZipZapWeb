@@ -26,4 +26,11 @@ ul#horizontal-list {
 	display: inline;
 }
 
-   
+
+.context-txt{
+	width: 50%;
+	background-color: aqua;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border: 2px solid black;
+	padding: 5px;
+}
