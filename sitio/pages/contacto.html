@@ -31,6 +31,9 @@
                     <section class="zipMenu">
                         <ul>
                             <li>
+                                <a href="../index.html"> Inicio</a>
+                            </li> 
+                            <li>
                                 <a href="nosotros.html"> Nosotros</a>
                             </li>
                             <li>
@@ -56,33 +59,34 @@
     <br>
     <br>
     <main>
-        <section>
+        <section class="formulario">
             <fieldset>
-                <legend>Formulario para contacto</legend>
+                <legend class="large-label">Formulario para contacto</legend>
                 <form action="">
                     <div>
-                        <label for="nombre">Nombre</label>
+                        <label for="nombre">Nombre:</label>
                         <input type="text" name="nombre">
                     </div>
                     <br>
                     <div>
-                        <label for="nombre">Apellido</label>
+                        <label for="nombre">Apellido:</label>
                         <input type="text" name="apellido"></input>
                     </div>
                     <br>
                     <div>
-                        <label for="email">Correo electronico</label>
+                        <label for="email">Email:</label>
                         <input type="email" name="email" required>
                     </div>
                     <br>
                     <br>
                     <div>
-                        <label for="comentarios">Envia tus comentarios</label><br>
+                        <label for="comentarios">Envia tus comentarios:</label class="small-label"><br>
                         <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
                     </div>
+                    <br>
                     <div>
                         <input type="submit" value="Enviar datos">
-                        <input type="reset" value="Borrar datos">
+                        <input class="borrar-datos" type="reset" value="Borrar datos">
                     </div><br>
                 </form>
             </fieldset>

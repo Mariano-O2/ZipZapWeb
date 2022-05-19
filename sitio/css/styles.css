@@ -34,3 +34,67 @@ ul#horizontal-list {
 	border: 2px solid black;
 	padding: 5px;
 }
+
+input{
+	background-color: grey;
+	border: 1px solid black;
+}
+
+fieldset{
+	background-color: lightblue;
+}
+
+.borrar-datos{
+	margin-left: 70px;
+}
+
+.textarea{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	border: 2px solid black;
+}
+
+.formulario label{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+}
+
+legend{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: medium;
+}
+
+form{
+	box-sizing: border-box;
+	padding: 2rem;
+	border-radius: 1rem;
+	background-color:lightblue;
+	border: 4px solid hsl(0, 0%, 90%);
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.large-label {
+	display: inline-block;
+	font: bold 1.5rem sans-serif;
+	margin-bottom: 0.5rem;
+  }
+
+  .small-label {
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 0.25rem;
+	margin-right: 1.5rem;
+	font: 1.25rem sans-serif;
+  }
+  
+.titulo-productos{
+  background-color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 1px black;
+  margin: 5px;
+}
