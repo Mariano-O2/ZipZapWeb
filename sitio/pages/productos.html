@@ -7,56 +7,49 @@
         <title>ZipZap Systems</title>
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+        <script src="https://kit.fontawesome.com/ed6dedd15e.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
         <!-- defino una caja que va a contener todas las secciones de mi pagina -->
         <div id="container">
     
-        <!-- Inicio Header  -->
-        <header>
-            <table>
-    
-                <tr>
-                    <td>
-                        <section class="zipLogo">
-                            <h2>ZipZap Systems</h2>
-                            <a href="../index.html">
-                                <img src="../images/apple-touch-icon.png" alt="Icono ZipZap" width="50%">
-                            </a>
-                        </section>
-                    </td>
-                    <td>
-                        <section class="zipMenu">
-                            <ul>
-                                <li>
-                                    <a href="../index.html"> Inicio</a>
-                                </li> 
-                                <li>
-                                    <a href="nosotros.html"> Nosotros</a>
-                                </li>
-                                <li>
-                                    <a href="productos.html"> Productos</a>
-                                </li>
-                                <li>
-                                    <a href="equipo.html"> Equipo </a>
-                                </li>
-                                <li>
-                                    <a href="clientes.html"> Clientes </a>
-                                </li>
-                                <li>
-                                    <a href="contacto.html"> Contacto </a>
-                                </li>
-                            </ul>
-                        </section>
-                    </td>
-                </tr>
-            </table>
-    
-    
-        </header>
-        <!-- Fin Header  -->
-        <main>
+    <!-- Inicio Header  -->
+    <header class="header_bar">
+        <div class="icon_section">
+            <img class="zipIcon" src="../images/apple-touch-icon.png" alt="Icono ZipZap">
+            <p class="ziplegend"> ZipZap Systems </p>
+        </div>
+        <div class="zipmenu">
+            <nav>
+            <ul>
+                <li>
+                    <a href="../index.html"> Inicio</a>
+                </li> 
+                <li>
+                    <a href="nosotros.html"> Nosotros</a>
+                </li>
+                <li>
+                    <a href="productos.html"> Productos</a>
+                </li>
+                <li>
+                    <a href="equipo.html"> Equipo </a>
+                </li>
+                <li>
+                    <a href="clientes.html"> Clientes </a>
+                </li>
+                <li>
+                    <a href="contacto.html"> Contacto </a>
+                </li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+     <!-- Fin Header  -->
+    <br>
+    <br>
+
+    <main>
             <section class="products_container">
                 <div class="products_text_container">
                     <h2 class="titulo-productos">Nuestros productos - Gestion de indicadores del negocio</h2>
@@ -71,29 +64,39 @@
 
             </section>
         </main>
-    <!-- Inicio Footer  -->
-    <footer>
-        <section>
-            Nuestras redes
-            <a href="https://facebook.com/zipzapsys" target="_blank">
-                <img src="../images/facebook.png" alt="facebook link" width="5%">
-            </a>
-            <a href="https://twitter.com/zipzapsys" target="_blank">
-                <img src="../images/twiter.png" alt="twitter link" width="5%">
-            </a>
-            <a href="https://www.instagram.com/zipzapsys" target="_blank">
-                <img src="../images/ig.png" alt="Ig link" width="5%">
-            </a>
-            <a href="mailto://info@zipzapsys.com" target="_blank"> info@zipzapsys.com
-                <img src="../images/email.png" alt="email us" width="5%">
-            </a>
-            (54911) 1234-5678
-            <img src="../images/172517_phone_icon.png" alt="phone" width="5%">
-            Av Pte. Frondizi 333,
-            3er Piso, CABA
-            Argentina.
-        </section>
-    </footer>
-    <!-- Fin Footer  -->   
-</body>
+     <!-- Inicio Footer  -->
+     <footer>
+        <div class="foot-section">
+            <div>
+                <a href="https://facebook.com/zipzapsys" target="_blank">
+                    <i class="fa-brands fa-facebook-square fa-3x"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/zipzapsys" target="_blank">
+                    <i class="fa-brands fa-twitter fa-3x"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/zipzapsys" target="_blank">
+                    <i class="fa-brands fa-instagram-square fa-3x"></i>
+                </a>
+            </div>
+            <div>
+                <a href="mailto://info@zipzapsys.com" target="_blank"> 
+                    <i class="fa-solid fa-envelope fa-3x"></i>
+                </a>
+            </div>
+            <div>
+                <a href="https://wa.me/5491112345678?text=Estoy%20interesado%20en%20sus%20servicios" target="_blank"> 
+                <i class="fa-brands fa-whatsapp fa-3x"></i>
+            </div>
+            <div>
+                <a href="https://goo.gl/maps/h2dxaihjWWRoLxgZA"target="_blank"> 
+                    <i class="fa-solid fa-map-location fa-3x"></i>
+                </a>
+            </div>
+        </div>
+</footer>
+ <!-- Fin Footer  --></body>
 </html>

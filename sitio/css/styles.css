@@ -40,6 +40,13 @@ fieldset{
 	border: 2px solid black;
 }
 
+
+.formulario	{
+	margin-top: 60px;
+	width: 70%;
+}
+
+
 .formulario label{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: medium;
@@ -75,6 +82,11 @@ form{
 	font: 1.25rem sans-serif;
   }
   
+ .products_text_container{
+	margin-top: 70px;
+
+ } 
+
 .titulo-productos{
 	background-color: aqua;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
