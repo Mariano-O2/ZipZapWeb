@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ZipZap Systems</title>
+        <!-- CSS only -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
         <script src="https://kit.fontawesome.com/ed6dedd15e.js" crossorigin="anonymous"></script>
@@ -47,8 +51,34 @@
         </header>
          <!-- Fin Header  -->
     <main>
-            <section class="clientes_container">
-                <div>    
+        
+            <section class="clientes_container" >
+
+                <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+
+
+                <!-- <div>    
                     <p>Algunos de nuestros clientes y testimonios </p>
                 </div>
                 <div>
@@ -69,7 +99,7 @@
                     <img src="../images/erp.jpg" alt="small cliente 5">
                     <img src="../images/erp.jpg" alt="small cliente 6">
                     <img src="../images/erp.jpg" alt="small cliente 7">
-                </div>
+                </div> -->
                 
 
             </section>
@@ -109,6 +139,6 @@
         </div>
 </footer>
  <!-- Fin Footer  -->
-
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
