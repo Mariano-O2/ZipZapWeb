@@ -1,125 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZipZap Systems</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
-    <script src="https://kit.fontawesome.com/ed6dedd15e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>ZipZap Systems</title>
 </head>
-
 <body>
-    <!-- defino una caja que va a contener todas las secciones de mi pagina -->
-    <div id="container">
-        <!-- Inicio Header  -->
-            <header class="header_bar">
-                <div class="icon_section">
-                    <img class="zipIcon" src="../images/apple-touch-icon.png" alt="Icono ZipZap">
-                    <p class="ziplegend"> ZipZap Systems </p>
-                </div>
-                <div class="zipmenu">
-                    <nav>
-                    <ul>
-                        <li>
-                            <a href="../index.html"> Inicio</a>
-                        </li> 
-                        <li>
-                            <a href="nosotros.html"> Nosotros</a>
-                        </li>
-                        <li>
-                            <a href="productos.html"> Productos</a>
-                        </li>
-                        <li>
-                            <a href="equipo.html"> Equipo </a>
-                        </li>
-                        <li>
-                            <a href="clientes.html"> Clientes </a>
-                        </li>
-                        <li>
-                            <a href="contacto.html"> Contacto </a>
-                        </li>
-                    </ul>
-                    </nav>
-                </div>
-            </header>
-             <!-- Fin Header  -->
-            <br>
-    <br>
-    <main>
-        <section class="formulario">
-            <fieldset>
-                <legend class="large-label">Formulario para contacto</legend>
-                <form action="">
-                    <div>
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre">
-                    </div>
-                    <br>
-                    <div>
-                        <label for="nombre">Apellido:</label>
-                        <input type="text" name="apellido"></input>
-                    </div>
-                    <br>
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" required>
-                    </div>
-                    <br>
-                    <br>
-                    <div>
-                        <label for="comentarios">Envia tus comentarios:</label class="small-label"><br>
-                        <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <br>
-                    <div class="envia_efecto">
-                        <input type="submit" value="Enviar datos">
-                        <input class="borrar-datos" type="reset" value="Borrar datos">
-                    </div><br>
-                </form>
-            </fieldset>
-        </section>
-    </main>
-    <br>
-    <br>
-     <!-- Inicio Footer  -->
-     <footer>
-        <div class="foot-section">
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
             <div>
-                <a href="https://facebook.com/zipzapsys" target="_blank">
-                    <i class="fa-brands fa-facebook-square fa-3x"></i>
-                </a>
+                <img class="zipIcon" src="../images/apple-touch-icon.png" alt="Icono ZipZap">
+                <p class="navbar-brand"> ZipZap Systems </p>
             </div>
-            <div>
-                <a href="https://twitter.com/zipzapsys" target="_blank">
-                    <i class="fa-brands fa-twitter fa-3x"></i>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.instagram.com/zipzapsys" target="_blank">
-                    <i class="fa-brands fa-instagram-square fa-3x"></i>
-                </a>
-            </div>
-            <div>
-                <a href="mailto://info@zipzapsys.com" target="_blank"> 
-                    <i class="fa-solid fa-envelope fa-3x"></i>
-                </a>
-            </div>
-            <div>
-                <a href="https://wa.me/5491112345678?text=Estoy%20interesado%20en%20sus%20servicios" target="_blank"> 
-                <i class="fa-brands fa-whatsapp fa-3x"></i>
-            </div>
-            <div>
-                <a href="https://goo.gl/maps/h2dxaihjWWRoLxgZA"target="_blank"> 
-                    <i class="fa-solid fa-map-location fa-3x"></i>
-                </a>
+            <button class="navbar-toggler" type="button" data-bs-target="#navmenu" data-bs-toggle="collapse">
+                <snap class="navbar-toggler-icon"></snap>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="..\index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./nosotros.html" class="nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacto</a>
+                    </li>
+
+                </ul>
             </div>
         </div>
-</footer>
- <!-- Fin Footer  -->
-</div>
-</body>
+    </nav>
+    <br></br><br></br><br></br><br></br>
+    <!-- Contacto -->
+    <section class="p-5">
+        <div class="container">
+          <br class="row g-4 p-5">
+            <div class="col-md">
+              <h2 class="text-center mb-4">Informacion de contacto:</h2>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  <span class="fw-bold">Dirección:</span> Av. Corrientes 315, 5to piso,<br> CABA, (4568), Argentina.
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Tel :</span> (54911) 1234-5678
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">Tel :</span> (54911) 9012-3456
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold"> Email:</span> info@zipzapsys.com
+                </li>
+              </ul>
+            </div>
+                <br></br><br></br><br></br>
+        </div>
+      </section>
 
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p>
+                <a href="#"><i class="bi bi-twitter text-light mx-4"  style="font-size: 2rem;"></i></a>
+                <a href="#"><i class="bi bi-facebook text-light mx-4" style="font-size: 2rem;"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-light mx-4" style="font-size: 2rem;"></i></a>
+                <a href="#"><i class="bi bi-instagram text-light mx-4" style="font-size: 2rem;"></i></a></p>
+          <p class="lead">Copyright &copy; 2022 ZipZap Systems</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+     </footer>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+</body>
 </html>
