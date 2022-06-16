@@ -1,0 +1,24 @@
+@import "head","foot";
+
+formulario {
+    margin-top: 60px;
+	width: 70%;
+    label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+    }
+}
+
+$titulo-bkg-color: radial-gradient(ellipse,  aqua, white, lightgrey);
+
+titulo-productos{
+	/* background-color: aqua; */
+	background: $titulo-bkg-color;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+	font-family: 'Signika Negative', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border: solid 1px black;
+	margin: 5px;
+}

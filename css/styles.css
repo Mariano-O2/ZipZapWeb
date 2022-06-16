@@ -41,7 +41,7 @@ fieldset{
 }
 
 
-.formulario	{
+/* .formulario	{
 	margin-top: 60px;
 	width: 70%;
 }
@@ -49,23 +49,11 @@ fieldset{
 .formulario label{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: medium;
-}
+} */
 
 legend{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: medium;
-}
-
-form{
-	box-sizing: border-box;
-	padding: 2rem;
-	border-radius: 1rem;
-	/* background-color:lightblue; */
-	background-image: linear-gradient(to right, lightblue, white);
-	border: 4px solid hsl(0, 0%, 90%);
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 2rem;
 }
 
 .large-label {
@@ -90,8 +78,7 @@ form{
 	margin-top: 50px;
 	padding-top: 30px;
 }
-.titulo-productos{
-	/* background-color: aqua; */
+/* .titulo-productos{
 	background: radial-gradient(ellipse,  aqua, white, lightgrey);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
@@ -100,7 +87,7 @@ form{
 	padding-bottom: 20px;
 	border: solid 1px black;
 	margin: 5px;
-}
+} */
 
 .envia_efecto:hover{
 	transform:translate(2px,2px);

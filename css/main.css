@@ -1,0 +1,17 @@
+formulario {
+  margin-top: 60px;
+  width: 70%; }
+  formulario label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium; }
+
+titulo-productos {
+  /* background-color: aqua; */
+  background: radial-gradient(ellipse, aqua, white, lightgrey);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 1px black;
+  margin: 5px; }
