@@ -1,144 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ZipZap Systems</title>
-        <!-- CSS only -->
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- SEO -->
+    <meta name="description" content="ZipZap Systems provee soluciones de software para ambientes corporativos e integración de sistemas heterogéneos - página de contacto">
+    <meta name="keywords" content="software soluciones consultoría desarrollo Java C# ERP SQL conectividad web html">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="../css/styles.css">
-        <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="../scripts/main.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
         <script src="https://kit.fontawesome.com/ed6dedd15e.js" crossorigin="anonymous"></script>
-    </head>
-    
-    <body>
-        <!-- defino una caja que va a contener todas las secciones de mi pagina -->
-        <div id="container">
-    
-        <!-- Inicio Header  -->
-        <header class="header_bar">
-            <div class="icon_section">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>ZipZap Systems Nuestors clientes</title>
+</head>
+<body>
+
+       <!-- Menu -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <div>
                 <img class="zipIcon" src="../images/apple-touch-icon.png" alt="Icono ZipZap">
-                <p class="ziplegend"> ZipZap Systems </p>
+                <p class="navbar-brand"> ZipZap Systems </p>
             </div>
-            <div class="zipmenu">
-                <nav>
-                <ul>
-                    <li>
-                        <a href="../index.html"> Inicio</a>
-                    </li> 
-                    <li>
-                        <a href="nosotros.html"> Nosotros</a>
+            <button class="navbar-toggler" type="button" data-bs-target="#navmenu" data-bs-toggle="collapse">
+                <snap class="navbar-toggler-icon"></snap>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="..\index.html" class="nav-link">Inicio</a>
                     </li>
-                    <li>
-                        <a href="productos.html"> Productos</a>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Productos</a>
                     </li>
-                    <li>
-                        <a href="equipo.html"> Equipo </a>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Clientes</a>
                     </li>
-                    <li>
-                        <a href="clientes.html"> Clientes </a>
+                    <li class="nav-item">
+                        <a href="./nosotros.html" class="nav-link">Nosotros</a>
                     </li>
-                    <li>
-                        <a href="contacto.html"> Contacto </a>
+                    <li class="nav-item">
+                        <a href="./contacto.html" class="nav-link">Contacto</a>
                     </li>
+
                 </ul>
-                </nav>
-            </div>
-        </header>
-         <!-- Fin Header  -->
-    <main>
-        
-            <section class="clientes_container" >
-
-                <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
-                    </div>
-                    <div class="carousel-item">
-                      <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
-                    </div>
-                    <div class="carousel-item">
-                      <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls" data-mdb-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-
-
-
-                <!-- <div>    
-                    <p>Algunos de nuestros clientes y testimonios </p>
-                </div>
-                <div>
-                    <img src="../images/erp.jpg" alt="Cliente 1">
-                
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, debitis tempora non distinctio aliquid laboriosam blanditiis alias corporis minus nostrum quis praesentium iure error obcaecati temporibus magni dicta. ?</p>
-                </div>
-                <div>
-                    <img src="../images/erp.jpg" alt="Cliente 2">
-                
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, debitis tempora non distinctio aliquid laboriosam blanditiis alias corporis minus nostrum quis praesentium iure error obcaecati temporibus magni dicta. ?</p>
-                </div>
-                <div>
-                    <img src="../images/erp.jpg" alt="small cliente 3">
-                    <img src="../images/erp.jpg" alt="small cliente 4">
-                    <img src="../images/erp.jpg" alt="small cliente 5">
-                    <img src="../images/erp.jpg" alt="small cliente 6">
-                    <img src="../images/erp.jpg" alt="small cliente 7">
-                </div> -->
-                
-
-            </section>
-        </main>
-     <!-- Inicio Footer  -->
-     <footer>
-        <div class="foot-section">
-            <div>
-                <a href="https://facebook.com/zipzapsys" target="_blank">
-                    <i class="fa-brands fa-facebook-square fa-3x"></i>
-                </a>
-            </div>
-            <div>
-                <a href="https://twitter.com/zipzapsys" target="_blank">
-                    <i class="fa-brands fa-twitter fa-3x"></i>
-                </a>
-            </div>
-            <div>
-                <a href="https://www.instagram.com/zipzapsys" target="_blank">
-                    <i class="fa-brands fa-instagram-square fa-3x"></i>
-                </a>
-            </div>
-            <div>
-                <a href="mailto://info@zipzapsys.com" target="_blank"> 
-                    <i class="fa-solid fa-envelope fa-3x"></i>
-                </a>
-            </div>
-            <div>
-                <a href="https://wa.me/5491112345678?text=Estoy%20interesado%20en%20sus%20servicios" target="_blank"> 
-                <i class="fa-brands fa-whatsapp fa-3x"></i>
-            </div>
-            <div>
-                <a href="https://goo.gl/maps/h2dxaihjWWRoLxgZA"target="_blank"> 
-                    <i class="fa-solid fa-map-location fa-3x"></i>
-                </a>
             </div>
         </div>
-</footer>
- <!-- Fin Footer  -->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    </nav>
+    <br></br><br></br>
+    <body>
+        <section class="bg-dark text-light p-5 text-center text-sm-start">
+        <div class="container-clientes">
+            <h1 class="clie-title">Algunos de nuestros clientes</h1>
+            <div class="slider-outer">
+                <img src="../images/arrow-left.png" class="prev" alt="Previous arrow">
+                <div class="slider-inner">
+                    <img src="../images/coca4x4.png" class="active">
+                    <img src="../images/cargil420x420.png" alt="">
+                    <img src="../images/oracle4x4.jpg" alt="">
+                  </div>
+                <img src="../images/arrow-right.png" class="next" alt="Next arrow">
+            </div>
+        </div>
+        </section>   
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p>
+                <a href="https://twitter.com/zipzapsys" target="_blank"><i class="bi bi-twitter text-light mx-4"  style="font-size: 2rem;"></i></a>
+                <a href="https://facebook.com/zipzapsys" target="_blank"><i class="bi bi-facebook text-light mx-4" style="font-size: 2rem;"></i></a>
+                <a href="https://linkedin.com/zipzapsys" target="_blank"><i class="bi bi-linkedin text-light mx-4" style="font-size: 2rem;"></i></a>
+                <a href="https://www.instagram.com/zipzapsys" target="_blank"><i class="bi bi-instagram text-light mx-4" style="font-size: 2rem;"></i></a></p>
+          <p class="lead">Copyright &copy; 2022 ZipZap Systems</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+     </footer>
+
 </body>
 </html>
