@@ -13,7 +13,6 @@ ul#horizontal-list {
 	display: inline;
 }
 
-
 .context-txt{
 	width: 50%;
 	background-color: aqua;
@@ -39,17 +38,6 @@ fieldset{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	border: 2px solid black;
 }
-
-
-/* .formulario	{
-	margin-top: 60px;
-	width: 70%;
-}
-
-.formulario label{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: medium;
-} */
 
 legend{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -78,51 +66,11 @@ legend{
 	margin-top: 50px;
 	padding-top: 30px;
 }
-/* .titulo-productos{
-	background: radial-gradient(ellipse,  aqua, white, lightgrey);
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	text-align: center;
-	font-family: 'Signika Negative', sans-serif;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border: solid 1px black;
-	margin: 5px;
-} */
 
 .envia_efecto:hover{
 	transform:translate(2px,2px);
 }
 
-.header_bar{
-	background-color:burlywood ;
-	width: 90%;
-	height: 10vh;
-	border: black solid 2px;
-	font-size: 1rem;
-	text-align: left;
-
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	grid-template-rows: 1fr;
-	grid-template-areas: 
-	"icon_section zipmenu";
-}
-
-.icon_section{
-	margin-left: 10px;
-	font-family: sans-serif;
-	font-weight: bold;
-}
-
-.zipIcon{
-	margin-top: 5px;
-	width: 25%;
-	margin-left: 35px;
-}
-
-.zipIcon:hover {
-	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
 
 .main_content{
 	background-color:grey;
@@ -153,72 +101,15 @@ legend{
   }
 
 
-header{
-	display: flex;
-	flex-direction: row;
-
-	width: 100%;
-	height: 80px;
-	position: fixed;
-}
-
-header nav ul{
-	display: block;
-	width: 100%;
-	height: 100%;
-	margin: auto;
-	overflow: hidden;
-}
-
-header nav ul li{
-	display: flex;
-	align-items: center;
-
-	width: auto;
-	height: 100%;
-	margin: 0 10px;
-	float: left;
-}
-
-header nav ul li a{
-	color: black;
-	text-decoration: none;
-	margin-top: 15px;
-	font-weight: bold;
-	font-family: sans-serif;
-}
-
 .ziplegend{
 	margin-top: 0;
-	/* margin-bottom: 5px; */
 }
+
 .img_erp {
 	width: 100%;
 }
 
-/* footer{
-	width: 90%;
-	margin-top: 10px;
-	border: solid black 1px;
-	padding: 10px;
-} */
 
-.foot-section{
-	display: flex;
-	justify-content: center;
-	column-gap: 25px;
-	flex-direction: row;
-}
-
-/* @media(max-width: 700px){
-	.main_content{
-		grid-template-columns: 1fr;
-	}
-} */
-
-/* .carousel slide{
-	margin-top: 80px;
-} */
 
 
 
